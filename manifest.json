@@ -1,0 +1,22 @@
+{
+  "name": "Matrix Auto Input",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Matrix Authentication Autofill with Tech-chan!",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "html/popup.html"
+  },
+  "content_scripts": [{
+    "matches": ["https://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=idg_key&AUTHMETHOD=*"],
+    "js": ["js/jquery-1.11.3.min.js", "main.js"],
+    "run_at": "document_end"
+    }],
+    "web_accessible_resources": [
+      "img/tech-chan.png"
+    ]
+}

@@ -1,0 +1,29 @@
+html {
+  width: 245px;
+  background-color: rgb(5, 45, 93);
+  color: rgb(220, 242, 242);
+  margin: 0px;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+div p {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+footer {
+  margin-top: 14px;
+}
+footer div {
+  text-align: right;
+  opacity: 0.5;
+}
