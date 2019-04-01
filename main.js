@@ -1,9 +1,9 @@
 // Matrix Authentication Autofill
 
 // extract key alphabet and number pairs
-var key1 = document.getElementsByTagName("TABLE")[1].getElementsByTagName("tr")[4].getElementsByTagName("th");
-var key2 = document.getElementsByTagName("TABLE")[1].getElementsByTagName("tr")[5].getElementsByTagName("th");
-var key3 = document.getElementsByTagName("TABLE")[1].getElementsByTagName("tr")[6].getElementsByTagName("th");
+var key1 = document.getElementsByTagName("TABLE")[1].getElementsByTagName("tr")[3].getElementsByTagName("th");
+var key2 = document.getElementsByTagName("TABLE")[1].getElementsByTagName("tr")[4].getElementsByTagName("th");
+var key3 = document.getElementsByTagName("TABLE")[1].getElementsByTagName("tr")[5].getElementsByTagName("th");
 
 // divide into one char
 var key1_left = key1[0].innerHTML.slice(1,2);
@@ -74,9 +74,9 @@ var answer2 = matrix[search_r1][search_c[1]];
 var answer3 = matrix[search_r2][search_c[2]];
 
 // insert answer
-document.getElementsByName("message4")[0].value = answer1;
-document.getElementsByName("message5")[0].value = answer2;
-document.getElementsByName("message6")[0].value = answer3;
+document.getElementsByName("message3")[0].value = answer1;
+document.getElementsByName("message4")[0].value = answer2;
+document.getElementsByName("message5")[0].value = answer3;
 
 
 // Setting Tech-chan Popup
